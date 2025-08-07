@@ -7,11 +7,14 @@ How It Works
 5.	Generates summary for a specific test example.
 
  Example ROUGE Scores (on Test Subset)
- 
- 1. "rouge1": 42.15,
- 2. "rouge2": 19.73,
- 3. "rougeL": 35.85,
- 4. "gen_len": 132.4
+
+ ## Training Results
+
+| Epoch | Training Loss | Validation Loss | ROUGE-1 | ROUGE-2 | ROUGE-L | ROUGE-Lsum | Generated Length |
+|-------|---------------|-----------------|---------|---------|---------|------------|------------------|
+| 1     | 3.526400      | 3.052274        | 35.3409 | 10.7941 | 20.1728 | 20.1589    | 135.516          |
+| 2     | 3.262300      | 3.009547        | 36.1050 | 11.1764 | 20.6751 | 20.6653    | 138.058          |
+| 3     | 3.229600      | 2.998999        | 36.3396 | 11.3333 | 20.7175 | 20.7076    | —                |
 
 
  Original Text:
