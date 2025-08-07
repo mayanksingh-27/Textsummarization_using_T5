@@ -8,10 +8,10 @@ How It Works
 
  Example ROUGE Scores (on Test Subset)
  
- "rouge1": 42.15,
- "rouge2": 19.73,
- "rougeL": 35.85,
- "gen_len": 132.4
+ 1. "rouge1": 42.15,
+ 2. "rouge2": 19.73,
+ 3. "rougeL": 35.85,
+ 4. "gen_len": 132.4
 
 
  Original Text:
