@@ -1,17 +1,18 @@
 How It Works
-	1.	Loads the CNN/DailyMail dataset.
-	2.	Preprocesses the data by prefixing "summarize: " to each article.
-	3.	Trains t5-small for 3 epochs using beam search during generation.
-	4.	Evaluates on validation and test sets with ROUGE metrics.
-	5.	Generates summary for a specific test example.
+
+1.	Loads the CNN/DailyMail dataset.
+2.	Preprocesses the data by prefixing "summarize: " to each article.
+3.	Trains t5-small for 3 epochs using beam search during generation.
+4.	Evaluates on validation and test sets with ROUGE metrics.
+5.	Generates summary for a specific test example.
 
  Example ROUGE Scores (on Test Subset)
- {
-  "rouge1": 42.15,
-  "rouge2": 19.73,
-  "rougeL": 35.85,
-  "gen_len": 132.4
-}
+ 
+ "rouge1": 42.15,
+ "rouge2": 19.73,
+ "rougeL": 35.85,
+ "gen_len": 132.4
+
 
  Original Text:
 
